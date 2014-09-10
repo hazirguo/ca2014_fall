@@ -1,0 +1,10 @@
+url: http://hazirguo.github.io/ca2014_fall
+baseurl: /ca2014_fall
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+#markdown: rdiscount
+permalink: /blog/:year:month:day/:title.html
+pygments: true
+exclude: ['Rakefile.rb', 'CNAME', 'README.markdown']
