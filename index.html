@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="the web page of Computer Architecture Course">
+    <meta name="keywords" content="computer, architecture, course, webpage, ustc">
+    <meta name="author" content="Hazirguo, haifenglinying">
+
+    <title>
+        欢迎访问计算机体系结构课程主页！
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Documentation extras -->
+    <link href="./assets/css/docs.min.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+
+  </head>
+  <body class="bs-docs-home">
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="./" class="navbar-brand">Computer Architecture</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="./">Home</a>
+            </li>
+            <li>
+              <a href="./coursework">Coursework</a>
+            </li>
+            <li>
+              <a href="./experiments">Experiments</a>
+            </li>
+            <li>
+              <a href="./materials">Materials & References</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./blog"><strong>Blog</strong></a></li>
+            <li><a href="./about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      <a href="https://github.com/hazirguo/ca2014"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+    </header>
+
+
+<!-- Page content of course! -->
+<main class="bs-docs-masthead" id="content" role="main">
+  <div class="container">
+    
+    <h1>Computer Architecture</h1>
+    <br/>
+    <p class="lead">Spring 2014, USTC</p>
+
+  </div>
+</main>
+
+
+<div>
+  <p></p>
+  <div class="container">
+    <div class="col-sm-3">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">时间地点</h3>
+        </div>
+        <div class="panel-body">
+          <p>Wednesday, 2:00 ~ 3:35, <strong>3C221</strong></p>
+          <p>Friday, 2:00 ~ 3:35, <strong>3C223</strong></p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">课程主讲</h3>
+        </div>
+        <div class="panel-body">
+          周学海（xhzhou@ustc.edu.cn）
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">课程助教</h3>
+        </div>
+        <div class="panel-body">
+          <p>权彦清（csqyq@mail.ustc.edu.cn）</p>
+          <p>郭海林（guohl@mail.ustc.edu.cn）</p>
+          <p>陈 航（hangc@mail.ustc.edu.cn）</p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">联系方式</h3>
+        </div>
+        <div class="panel-body">
+          <p>地址：西区电三楼 421 室</p>
+          <p>电话：0x3AE17BDDD（郭）</p>
+          <p>如有急事可直接电话或短信！</p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">成绩评定</h3>
+        </div>
+        <div class="panel-body">
+          <p>平时作业（10%）</p>
+          <p>实验情况（30%）</p>
+          <p>期中考试（25%）</p>
+          <p>期末考试（35%）</p>
+        </div>
+      </div>
+      
+    </div><!-- /.col-sm-3 -->
+
+
+    <div class="col-sm-9">
+
+      <div class="well">
+        <p>
+          Welcome to the Spring 2014 Computer Architecture web page.
+          The course is intended to provide a foundation for students interested in 
+          performance programming, compilers, and operating systems, 
+          as well as computer architecture and engineering.
+          Our goal is for you to better understand how software interacts with hardware, 
+          and to understand how trends in technology, applications, and economics drive continuing changes in the field. 
+          The course will cover the different forms of parallelism found in applications 
+          (instruction-level, data-level, thread-level, request-level) 
+          and how these can be exploited with various architectural features. 
+          We will cover pipelining, superscalar, speculative and out-of-order execution, vector machines, 
+          VLIW machines, multithreading, graphics processing units, and parallel microprocessors. 
+          We will also explore the design of memory systems including caches, virtual memory, and DRAM.
+        </p>
+      </div>
+      
+      <div >
+        <h3>Course Calendar with Handouts</h3>
+      </div>
+
+      <div class="alert alert-danger">
+        <!-- <strong>最新通知：</strong> 第一次作业发布，详情点击 <a href="coursework/index.html#ps1">这儿</a>，请与 3 月 5 日上课时交！ -->
+        <!-- <strong>最新通知：</strong> 第二次作业发布，详情点击 <a href="coursework/index.html#ps2">这儿</a>，请与 3 月 12 日上课时交！ -->
+       <!-- <strong>最新通知：</strong> 本课程软件部分实验均以<a href="experiments/index.html">上传（3.25更新版）</a>，选软件实验（5 个）的同学，周四晚实验课验收第一次实验！<br/> -->
+       <!--　 有关课程实验的相关说明，详情点击 <a href="blog/20140321/about_lab.html">这儿</a> !</br>  -->
+       <!--　 第三次作业发布，详情点击 <a href="coursework/index.html#ps3">这儿</a>，请与 3 月 26 日上课时交！ </br> -->
+       <!--　 第一次实验发布，详情点击 <a href="experiments/index.html#lab1">这儿</a>（已更新 MIPSsim 压缩包，添加“样例程序”），请与 3 月 28 日前提交！　-->
+      <strong>最新通知：</strong> <strong> 6.23 </strong>　<strong>田野(PB10203276)</strong>、<strong>向曦明(PB11011027)</strong>、<strong>厉辉(PB11011067)</strong> 三位同学既没有收到软件实验的成绩、也没有硬件实验的成绩，请即使联系助教说明情况，没有实验成绩是没办法及格的！如果有看到通知的同学相互转告一下！</br>
+        　　　　　 <strong> 6.21 </strong>　实验报告补交的同学都收到，大家放心！再没交的同学也不允许提交了，另：周龙、刘超两位同学至少有三个报告没提交！请及时联系助教，否则 0 分处理！  </br>
+        　　　　　 <strong> 6.16 </strong>　期终考试时间：2014-06-18 08:30-10:30 ； 教室：3A213, 3A214  </br>
+        　　　　　 <strong> 5.29 </strong>　第三次习题课部分材料汇总，猛戳 <a href= "blog/20140529/solutions.html"> 这儿 </a> 查看！ </br>
+        　　　　　 <strong> 5.28 </strong>　实验报告部分同学上传未成功或未提交，请自行到 <a href="experiments/index.html#result">这里</a> 查看，未提交成功的，点击 <a href="blog/20140527/second_ftp.html">这儿</a> 查看补交办法。</br>
+        　　　　　 <strong> 5.25 </strong>　大家作业辛苦了！最后一次作业发布，详情点击 <a href="coursework/index.html#ps8">这儿</a>，请与 5 月 28 日上课时交！ </br>
+        　　　　　 <strong> 5.22 </strong>　大家编码辛苦了！最后一次实验做实验四，详情点击 <a href="experiments/index.html#lab5">这儿</a> ！</br>
+        　　　　　 <strong> 5.19 </strong>　<strong>由于5月21日（周三）周老师出差，故周三体系结构课取消，请相互转告，谢谢！</strong> </br>
+        　　　　　 <strong> 5.16 </strong>　第二次习题课部分材料汇总，猛戳 <a href= "blog/20140516/solutions.html"> 这儿 </a> 查看！ </br>
+      <!-- <strong> 5.13 </strong>　第七次作业发布，详情点击 <a href="coursework/index.html#ps7">这儿</a>，请与 5 月 21 日上课时交！ </br>
+      <strong> 5.9 </strong>　第二次习题课定于 5月12日（周一）下午四点，地点是 3C323，讲解第四、五、六次作业，期中考试题以及 CUDA 编程等内容。请大家务必到！</br>
+        　　　　　 <strong> 5.6 </strong>　第四次实验做实验五，详情点击 <a href="experiments/index.html#lab5">这儿</a> ！</br>-->
+              <!-- <strong> 5.6 </strong>　第六次作业发布，详情点击 <a href="coursework/index.html#ps6">这儿</a>，请与 5 月 9 日上课时交！ </br>  -->
+        　　　　　 <strong> 5.4 </strong>　<a href="blog/20140504/about_lab2.html"> 关于课程实验（软件部分）要求的变更，请关注变化</a>！ </br>
+              <!-- <strong> 5.4 </strong>　第三次实验没有验收的明晚（5.5）最后一次验收！ </br> -->
+              <!-- <strong> 4.17 </strong>　第二次实验报告可以推迟两天交，也不要太晚哦~ 第三次实验<a href="experiments/index.html#lab3">发布</a>！ </br> -->
+              <!-- <strong> 4.16 </strong>　第五次作业发布，详情点击 <a href="coursework/index.html#ps5">这儿</a>，请与 4 月 25 日上课时交！ </br>  -->
+        　　　　　 <strong> 4.16 </strong>　首页侧边栏增加实验室地点和助教电话，方便不时之需！</br>
+              <!-- <strong> 4.16 </strong>　期中考试定于 4 月 23 日（下周三）下午 2:00 ~ 3:35，地点 3A404 和 3A405！</br> -->
+              <!-- <strong> 4.14 </strong>　期中考试暂定于 4 月 23 日（下周三）下午 1:30 ~ 3:35，地点待定！ <br/> -->
+              <!-- <strong> 4.14 </strong>　小实验必须要验收，否则验收分（占60%）就没有了！周一没来得及验收的周四来验收！<br/> -->
+              <!-- <strong> 4.10 </strong>　实验二实验报告纠错：“第1点是必做的，第2点是选做”。下周一和周四验收！ <br/> -->
+              <!-- <strong> 4.8 </strong>　第四次作业增加了<a href="coursework/index.html#ps4">四道题</a>，作业推迟到 4 月 11 日上课时交！ <br/> -->
+        　　　　　 <strong> 4.4 </strong>　实验报告上传到 FTP 之后，无法查看里面的内容是正常现象，因为未赋予你们读的权限！如有遇到无法登录的情况，发邮件给助教告知即可！ <br/>
+        　　　　　 <strong> 4.1 </strong>　<a href="blog/20140401/about_coursework.html">关于课程作业的若干说明！</a> 
+        　　　<!-- <strong> 4.1 </strong>　<a href="experiments/index.html#lab2">第二次实验</a> 现在可以做了，4 月 14 日（周一）、4 月 17 日（周四）验收！<br/> -->
+              <!-- <strong> 4.1 </strong>　第四次作业发布，详情点击 <a href="coursework/index.html#ps4">这儿</a>，请与 4 月 9 日上课时交！　<br/>
+        　　　　　 <strong> 3.26 </strong>　实验一报告提交推迟一周（截至 4 月 4 日）！　<br/>
+        　　　　　 <strong> 3.26 </strong>　本课程软件部分实验均以<a href="experiments/index.html">上传（3.25更新版）</a>，选软件实验的同学，下周一(3.31)和下周四(4.3)验收实验一！<br/>
+        　　　　　  <strong> 3.24 </strong>　<a href="experiments/index.html">本课程所有小实验均以上传，请大家查看，并尽快选择好实验！</a></br>-->
+      </div>
+
+      <div>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>
+                <b>Week</b>
+              </th>
+              <th>
+                <b>Date</b>
+              </th>
+              <th>
+                <b>Lecture Topic</b>
+              </th>
+              <th>
+                <b>Readings 5th Edition</b>
+              </th>
+              <th>
+                <b>Assignments</b>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td rowspan="2">1</td>
+              <td>
+                Wed, Feb 19
+              </td>
+              <td>
+                L1: Introduction
+              </td>
+              <td>
+                Ch. 1
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                Fri, Feb 21
+              </td>
+              <td>
+                L2: Introduction &  Quantitative Analysis  　<a href="handouts/chapter01.ppt">PPT-Chapter1</a>  　
+              </td>
+              <td>
+                Ch. 1
+              </td>
+              <td>
+                <a href="coursework/index.html#ps1">PS1</a> 
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">2</td>
+              <td>
+                Wed, Feb 26
+              </td>
+              <td>
+                L3: CPU Performance Analysis & Introduction to ISA
+              </td>
+              <td>
+                Ch. 1 ,  App. A
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                Fri, Feb 28
+              </td>
+              <td>
+                L4: ISA Design Principles & From CISC to RISC  
+              </td>
+              <td>
+                App. A
+              </td>
+              <td>
+                <a href="coursework/index.html#ps2">PS2</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">3</td>
+              <td>
+                Wed, Mar 5
+              </td>
+              <td>
+                L5: ISA  　　<a href="handouts/chapter02.ppt">PPT-Chapter2</a>
+              </td>
+              <td>
+                App. A
+              </td>
+              <td class="danger"><strong> PS1 due</strong></td>
+            </tr>
+            <tr>
+              <td >
+                Fri, Mar 7
+              </td>
+              <td>
+                L6: Introduction to Pipeline
+              </td>
+              <td>
+                App. C
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">4</td>
+              <td>
+                Wed, Mar 12
+              </td>
+              <td>
+                L7: Pipeline Hazards
+              </td>
+              <td>
+                App. C
+              </td>
+              <td class="danger"><strong> PS2 due</strong> <br/> <a href="experiments/index.html#lab1">Lab1</a> </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, Mar 14
+              </td>
+              <td>
+                L8: Control hazards 　　　　<a href="handouts/chapter03.ppt">PPT-Chapter3</a>
+              </td>
+              <td>
+                App. C 
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">5</td>
+              <td>
+                Wed, Mar 19
+              </td>
+              <td>
+                L9: 
+              </td>
+              <td>
+                
+              </td>
+              <td> 
+                <a href="coursework/index.html#ps3">PS3</a>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, Mar 21
+              </td>
+              <td>
+                Exercise Lecture 
+              </td>
+              <td>
+                
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">6</td>
+              <td>
+                Wed, Mar 26
+              </td>
+              <td>
+                L10: Introduction to Cache
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> PS3 due</strong> 
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, Mar 28
+              </td>
+              <td>
+                L11: Cache Optimizations    　　　　<a href="handouts/chapter0401.ppt">PPT-Chapter4-1</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> <s>Lab1 due</s></strong> 
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">7</td>
+              <td>
+                Wed, Apr 2
+              </td>
+              <td>
+                L12: Cache Advanced Optimizations-I
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                <a href="coursework/index.html#ps4">PS4</a>　<br/>
+                <a href="experiments/index.html#lab2">Lab2</a>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, Apr 4
+              </td>
+              <td>
+                L13: Cache Advanced Optimizations-II
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> Lab1 due</strong> 
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">8</td>
+              <td>
+                Wed, Apr 9
+              </td>
+              <td>
+                L14: Virtual Memory    　　　　<a href="handouts/chapter0402.ppt">PPT-Chapter4-2</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <s><strong> PS4 due</strong> </s>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, Apr 11
+              </td>
+              <td>
+                L15: Instructio-Level Parallelism    　　　　<a href="handouts/chapter0501.pptx">PPT-Chapter5-1</a>
+              </td>
+              <td>
+                Ch. 3
+              </td>
+              <td class="danger">
+                 <strong> PS4 due</strong>
+              </td>
+            </tr>
+
+             <tr>
+              <td rowspan="2">9</td>
+              <td>
+                Wed, Apr 16
+              </td>
+              <td>
+                L16: Tomasulo's Algorithm
+              </td>
+              <td>
+                Ch. 3
+              </td>
+              <td>
+                <a href="coursework/index.html#ps5">PS5</a>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, Apr 18
+              </td>
+              <td>
+                L17: 
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> Lab2 due</strong> </br>
+                <a href="experiments/index.html#lab3">Lab3</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">10</td>
+              <td>
+                Wed, Apr 23
+              </td>
+              <td>
+                Middle Exam
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, Apr 25
+              </td>
+              <td>
+                L18: 
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> PS5 due</strong>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">11</td>
+              <td>
+                Wed, Apr 30
+              </td>
+              <td>
+                L19:     　<a href="handouts/chapter05.pptx">PPT-Chapter5</a>
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Sun, May 4
+              </td>
+              <td>
+                L20: Data-Level Parallelism in Vector    　<a href="handouts/chapter0601.pptx">PPT-Chapter6-1</a>
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                <a href="coursework/index.html#ps6">PS6</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">12</td>
+              <td>
+                Wed, May 7
+              </td>
+              <td>
+                L21: Data-Level Parallelism in GPU-I
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                <a href="experiments/index.html#lab5">Lab5</a>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, May 9
+              </td>
+              <td>
+                L22: Data-Level Parallelism in GPU-II    　<a href="handouts/chapter06.pptx">PPT-Chapter6</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> PS6 due</strong>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="3">13</td>
+              <td>
+                Mon, May 12
+              </td>
+              <td>
+                Exercise Lecture (at Rom 3C323)
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                <a href="coursework/index.html#ps7">PS7</a>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Wed, May 14
+              </td>
+              <td>
+                L23:
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                
+              </td>
+            </tr>
+            <tr>
+              <td >
+                Fri, May 16
+              </td>
+              <td>
+                L24:
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">14</td>
+              <td>
+                Wed, May 21
+              </td>
+              <td>
+                ----
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <s><strong> PS7 due </strong></s>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, May 23
+              </td>
+              <td>
+                L25:    　　　　<a href="handouts/chapter07.pptx">PPT-Chapter7</a> <br/>
+                　　　　　　<a href="handouts/chapter07new.pptx">PPT-Chapter7-new</a>
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> Lab5 due </strong><br/>
+                <strong> PS7 due </strong><br/>
+                <a href="coursework/index.html#ps8">PS8</a>
+              </td>
+            </tr>
+
+             <tr>
+              <td rowspan="2">15</td>
+              <td>
+                Wed, May 28
+              </td>
+              <td>
+                Exercise Lecture 
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> PS8 due </strong> <br/>
+                <a href="experiments/index.html#lab4">Lab4</a>
+              </td>　
+            </tr>
+            <tr>
+              <td >
+                Fri, May 30
+              </td>
+              <td>
+                L26:  　　　　<a href="handouts/chapter08.pptx">PPT-Chapter8</a>
+              </td>
+              <td>
+                
+              </td>
+              <td>
+              </td>
+            </tr>
+
+
+             <tr>
+              <td rowspan="1">16</td>
+              <td>
+                Sun, Jun 8
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                
+              </td>
+              <td class="danger">
+                <strong> Lab4 due </strong>
+              </td>　
+            </tr>
+
+            <tr>
+              <td rowspan="1">18</td>
+              <td>
+                Wed, Jun 18
+              </td>
+              <td>
+                Final Exam
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                
+              </td>　
+            </tr>
+
+          </tbody>
+
+        </table>
+      </div>
+    </div><!-- /.col-sm-9 -->
+
+  </div>  <!-- container -->
+
+</div> <!-- bs-main -->
+
+
+
+
+    <!-- Footer
+================================================== -->
+<footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+
+    <p>Designed and built with the <a href="http://getbootstrap.com/" target="_blank">bootstrap theme</a> by guohailin.</p>
+    <p>Acknowledge to Berkeley CS152 <a href="https://inst.eecs.berkeley.edu/~cs152/sp13/" target="_blank">web page</a>! </p>
+    <p>Code licensed under <a href="https://github.com/hazirguo/ca2014/blob/master/LICENSE" target="_blank">MIT</a>, blog under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
+
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/docs.min.js"></script>
+
+  </body>
+</html>
